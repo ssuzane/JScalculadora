@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+
+.item{
+    background-color: violet;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    color: black;
+    padding-inline: 16px;
+}
+
+button{
+    padding: 2px 8px;
+}
+
+.resultado{
+    width: 50px;
+    height: 25px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.exame{
+    display: none;
+}
+
+.exame-reprovado{
+    display: block;
+}
